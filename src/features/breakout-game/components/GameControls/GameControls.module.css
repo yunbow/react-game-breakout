@@ -1,0 +1,19 @@
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding: 0 10px;
+}
+
+.scoreContainer,
+.livesContainer {
+  color: var(--color-foreground);
+}
+
+@media (max-width: 840px) {
+  .controls {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
